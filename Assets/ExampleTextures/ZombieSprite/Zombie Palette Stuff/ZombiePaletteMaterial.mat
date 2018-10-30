@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ZombiePaletteMaterial
+  m_Shader: {fileID: 4800000, guid: 5688efb287ead674d8d62cfebbfcf549, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _IndexMap:
+        m_Texture: {fileID: 2800000, guid: 7593ea5dab7c0a6469ab9a560d9cebff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 21381a4c7d4be204ba79919505c850ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDepth:
+        m_Texture: {fileID: 2800000, guid: ff280ef52a05bbf47b519c40b95b7169, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaletteMap:
+        m_Texture: {fileID: 2800000, guid: eadb0d4aeb158c04599ad00731d49d18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGloss:
+        m_Texture: {fileID: 2800000, guid: 5cd4d7f83bdf2bb45bbe98bfdb526d78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmplifyDepth: 0.4821429
+    - _AttenuationMultiplier: 1.85
+    - _LightWrap: 0.647
+    - _Shininess: 10
+    - _SpecExponent: 50
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _TextureRes: {r: 64, g: 64, b: 0, a: 0}

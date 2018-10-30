@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StoneWallMaterial
+  m_Shader: {fileID: 4800000, guid: 069032f5bd5666541afcfeb10ac30a51, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: f4dc9ba0954da494dbe5dcfa8f543ab4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColour:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b107b8e5ecfeed24397168ea637730a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDepth:
+        m_Texture: {fileID: 2800000, guid: d8ed0ba18f34c794386f3fb243f54fc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGloss:
+        m_Texture: {fileID: 2800000, guid: e9894d8deb310e940ae3fa425bcb6ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientOcclusionStrength: 0.25
+    - _AmplifyDepth: 0.256
+    - _AttenuationMultiplier: 0.375
+    - _CelShadingLevels: 0
+    - _EmissiveStrength: 0
+    - _LightWrap: 0
+    - _Shininess: 1
+    - _SpecExponent: 30.4
+    - _SpecStrength: 1.0714285
+    - _SpotlightHardness: 2.93
+    m_Colors:
+    - _AboveAmbientColour: {r: 0.102941155, g: 0.102941155, b: 0.102941155, a: 0.29803923}
+    - _BelowAmbientColour: {r: 0.17647058, g: 0.17647058, b: 0.17647058, a: 0.101960786}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _TextureRes: {r: 512, g: 256, b: 0, a: 0}

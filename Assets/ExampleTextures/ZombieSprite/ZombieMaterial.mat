@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ZombieMaterial
+  m_Shader: {fileID: 4800000, guid: 7ec172e18614c8542856665e9fda8308, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 70fe2d463ba4bb640a5f0e55b47a4cf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColour:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IndexMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 21381a4c7d4be204ba79919505c850ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalDepth:
+        m_Texture: {fileID: 2800000, guid: ff280ef52a05bbf47b519c40b95b7169, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaletteMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGloss:
+        m_Texture: {fileID: 2800000, guid: 5cd4d7f83bdf2bb45bbe98bfdb526d78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientOcclusionStrength: 1
+    - _AmplifyDepth: 1
+    - _AttenuationMultiplier: 0.825
+    - _CelShadingLevels: 7
+    - _EmissiveStrength: 0
+    - _LightWrap: 0.19642857
+    - _Shininess: 6.117978
+    - _SpecExponent: 17.625
+    - _SpecStrength: 1.0714285
+    - _SpotlightHardness: 2
+    m_Colors:
+    - _AboveAmbientColour: {r: 0.16911763, g: 0.16911763, b: 0.16911763, a: 1}
+    - _BelowAmbientColour: {r: 0.16176468, g: 0.16176468, b: 0.16176468, a: 0.101960786}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _TextureRes: {r: 64, g: 64, b: 0, a: 0}
