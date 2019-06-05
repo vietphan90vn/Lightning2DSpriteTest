@@ -4,7 +4,8 @@
 SpriteAtlas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: New Sprite Atlas
   m_EditorData:
     serializedVersion: 2
@@ -14,7 +15,7 @@ SpriteAtlas:
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      filterMode: 1
+      filterMode: 0
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
@@ -25,20 +26,15 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: eff0bcd1c343c6644999a176f1e22720, type: 3}
-    - {fileID: 21300000, guid: 1b80668b9b71bc145b280af31b26582b, type: 3}
     - {fileID: 2800000, guid: c360959324adbd040946b6fde9f896da, type: 3}
+    totalSpriteSurfaceArea: 0
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: eff0bcd1c343c6644999a176f1e22720, type: 3}
-  - {fileID: 21300000, guid: 1b80668b9b71bc145b280af31b26582b, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - 2dxfx-icon-brightness
-  - 2dxfx-icon-clip_right
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
